@@ -1,4 +1,51 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = 'hextra'
+baseURL = "https://example.com/"
+languageCode = "en-us"
+title = "jaedots"
+theme = "hextra"
+
+# Konfiguracja paska nawigacji (Logo)
+[params.navbar]
+  displayTitle = true
+  displayLogo = true
+
+[params.navbar.logo]
+  path = "images/sims.png"
+  dark = "images/sims.png"
+  link = "/"
+  width = 40
+  height = 20
+
+# --- MENU ---
+
+[[menu.main]]
+  identifier = "projects"
+  name = "Projects"
+  pageRef = "/projects"
+  weight = 10
+
+[[menu.main]]
+  identifier = "notes"
+  name = "Notes"
+  pageRef = "/notes"
+  weight = 20
+
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  pageRef = "/about"
+  weight = 30
+
+[[menu.main]]
+  identifier = "search"
+  name = "Search"
+  weight = 40
+  [menu.main.params]
+    type = "search"
+
+[[menu.main]]
+  identifier = "github"
+  name = "GitHub"
+  url = "https://github.com/jakubpietras"
+  weight = 50
+  [menu.main.params]
+    icon = "github"
