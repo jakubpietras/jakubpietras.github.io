@@ -1,6 +1,6 @@
 ---
-title: "About me"
-layout: full         # Opcjonalnie: usuwa "W tym artykule" z prawej strony
+title: "ABOUT ME"
+layout: docs
 ---
 
 Hi! Welcome to my dev website.
