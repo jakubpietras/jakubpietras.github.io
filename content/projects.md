@@ -3,7 +3,7 @@ title: "PROJECTS"
 layout: docs
 ---
 
-#### TECH DEMOS
+#### TECH DEMOS -- RENDERING
 {{< cards >}}
   {{< card link="https://github.com/jakubpietras/duck-demo" title="Duck" image="/images/duck.webp" subtitle="DirectX 11 | C++" >}}
   {{< card link="https://github.com/jakubpietras/dynamic-lod" title="Dynamic LOD" image="/images/lod.webp" subtitle="DirectX 11 | C++" >}}
